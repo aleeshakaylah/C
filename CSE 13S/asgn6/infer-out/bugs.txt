@@ -1,0 +1,21 @@
+Found 2 issues
+
+hs.c:13: error: NULL_DEREFERENCE
+  pointer `gs` last assigned on line 10 could be null and is dereferenced at line 13, column 5.
+  11.   
+  12.     if (old != NULL) {
+  13. >     gs->oldspeak = strcpy(malloc(strlen(old) + 1), old);
+  14.       if (hatter != NULL) {
+  15.         gs->hatterspeak = strcpy(malloc(strlen(hatter) + 1), hatter);
+
+ll.c:13: error: NULL_DEREFERENCE
+  pointer `node` last assigned on line 12 could be null and is dereferenced at line 13, column 3.
+  11.   ListNode *ll_node_create(HatterSpeak *gs) {
+  12.     ListNode *node = (ListNode *)malloc(sizeof(ListNode));
+  13. >   node->gs = gs;
+  14.     node->next = NULL;
+  15.     return node;
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 2

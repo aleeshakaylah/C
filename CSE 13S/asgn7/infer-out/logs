@@ -1,0 +1,192 @@
+[1998][environment] CWD = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[1998][environment] No .inferconfig file found
+[1998][environment] Project root = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[1998][environment] INFER_ARGS =   command line arguments:   infer-capture -- makeActive checkers: biabduction (C/C++/ObjC, Java), fragment retains view (Java), liveness (C/C++/ObjC), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[1998][environment] Infer log identifier is 
+Infer version v0.16.0-1172e6d
+[1998][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[1998][environment] 
+[1998][   progress] Capturing in make/cc mode...
+[1998][environment] Running command make with env:
+[1998][environment] MANPATH=/opt/rh/llvm-toolset-7/root/usr/share/man:/opt/rh/devtoolset-8/root/usr/share/man: 
+[1998][environment] XDG_SESSION_ID=206 
+[1998][environment] HOSTNAME=unix3 
+[1998][environment] GNUPLOT_DEFAULT_GDFONT=LiberationSans-Regular 
+[1998][environment] ANDROID_HOME=/usr/local/android-sdk 
+[1998][environment] TERM=xterm-256color 
+[1998][environment] SHELL=/bin/bash 
+[1998][environment] HISTSIZE=1000 
+[1998][environment] SSH_CLIENT=172.91.99.208 50315 22 
+[1998][environment] IDL_DIR=/usr/local/envi/idl82 
+[1998][environment] PERL5LIB=/opt/rh/devtoolset-8/root//usr/lib64/perl5/vendor_perl:/opt/rh/devtoolset-8/root/usr/lib/perl5:/opt/rh/devtoolset-8/root//usr/share/perl5/vendor_perl 
+[1998][environment] QTDIR=/usr/lib64/qt-3.3 
+[1998][environment] QTINC=/usr/lib64/qt-3.3/include 
+[1998][environment] SSH_TTY=/dev/pts/28 
+[1998][environment] QT_GRAPHICSSYSTEM_CHECKED=1 
+[1998][environment] USER=anageer 
+[1998][environment] PCP_DIR=/opt/rh/devtoolset-8/root 
+[1998][environment] LD_LIBRARY_PATH=/opt/rh/llvm-toolset-7/root/usr/lib64:/opt/rh/devtoolset-8/root/usr/lib64:/opt/rh/devtoolset-8/root/usr/lib:/opt/rh/devtoolset-8/root/usr/lib64/dyninst:/opt/rh/devtoolset-8/root/usr/lib/dyninst:/opt/rh/devtoolset-8/root/usr/lib64:/opt/rh/devtoolset-8/root/usr/lib 
+[1998][environment] LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45: 
+[1998][environment] GDFONTPATH=/usr/share/fonts/liberation 
+[1998][environment] MAKE_TERMOUT=/dev/pts/28 
+[1998][environment] MAKELEVEL=1 
+[1998][environment] MFLAGS= 
+[1998][environment] XDG_CONFIG_DIRS=/etc/xdg 
+[1998][environment] MAIL=/var/spool/mail/anageer 
+[1998][environment] PWD=/afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7 
+[1998][environment] LANG=en_US.UTF-8 
+[1998][environment] KDEDIRS=/usr 
+[1998][environment] EXELIS_DIR=/usr/local/envi 
+[1998][environment] SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass 
+[1998][environment] KRB5CCNAME=KEYRING:persistent:226914 
+[1998][environment] HISTCONTROL=ignoredups 
+[1998][environment] SHLVL=2 
+[1998][environment] HOME=/afs/cats.ucsc.edu/users/e/anageer 
+[1998][environment] PYTHONPATH=/opt/rh/llvm-toolset-7/root/usr/lib/python2.7/site-packages:/opt/rh/devtoolset-8/root/usr/lib64/python2.7/site-packages:/opt/rh/devtoolset-8/root/usr/lib/python2.7/site-packages 
+[1998][environment] LOGNAME=anageer 
+[1998][environment] MAKE_TERMERR=/dev/pts/28 
+[1998][environment] CVS_RSH=ssh 
+[1998][environment] QTLIB=/usr/lib64/qt-3.3/lib 
+[1998][environment] SSH_CONNECTION=172.91.99.208 50315 128.114.104.56 22 
+[1998][environment] XDG_DATA_DIRS=/usr/local/share/:/usr/share/ 
+[1998][environment] PKG_CONFIG_PATH=/opt/rh/llvm-toolset-7/root/usr/lib64/pkgconfig:/opt/rh/devtoolset-8/root/usr/lib64/pkgconfig 
+[1998][environment] LESSOPEN=||/usr/bin/lesspipe.sh %s 
+[1998][environment] INFOPATH=/opt/rh/devtoolset-8/root/usr/share/info:/usr/local/texlive/2019/texmf-dist/doc/info 
+[1998][environment] XDG_RUNTIME_DIR=/run/user/226914 
+[1998][environment] QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins 
+[1998][environment] _=/usr/local/bin/infer-capture 
+[1998][environment] INFER_CWD=/afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7 
+[1998][environment] INFER_ARGS= 
+[1998][environment] INFER_TOP_RESULTS_DIR=/afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7/infer-out 
+[1998][environment] NO_BUCKD=1
+[1998][environment] PATH=/usr/local/infer-0.15.0/lib/infer/infer/bin/../lib/wrappers:/usr/lib64/qt-3.3/bin:/opt/rh/llvm-toolset-7/root/usr/bin:/opt/rh/llvm-toolset-7/root/usr/sbin:/opt/rh/devtoolset-8/root/usr/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/local/texlive/2019/bin/x86_64-linux:/usr/local/codebench/bin:/afs/cats.ucsc.edu/users/e/anageer/bin:. 
+[1998][environment] INFER_OLD_PATH=/usr/lib64/qt-3.3/bin:/opt/rh/llvm-toolset-7/root/usr/bin:/opt/rh/llvm-toolset-7/root/usr/sbin:/opt/rh/devtoolset-8/root/usr/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/local/texlive/2019/bin/x86_64-linux:/usr/local/codebench/bin:/afs/cats.ucsc.edu/users/e/anageer/bin:.
+[1998][environment] 
+
+[2020][environment] CWD = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[2020][environment] No .inferconfig file found
+[2020][environment] Project root = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[2020][environment] INFER_ARGS =   @/tmp/args.tmp.b0caf9  ++Contents of '/tmp/args.tmp.b0caf9':
+[2020][environment]                                         -Wall -Wextra -Werror -Wpedantic -c
+[2020][environment]                                         encode.c
+[2020][environment]                                       
+[2020][environment] command line arguments:   clang -Wall -Wextra -Werror -Wpedantic -c encode.cActive checkers: biabduction (C/C++/ObjC, Java), fragment retains view (Java), liveness (C/C++/ObjC), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[2020][      debug] 
+[2020][      debug] *** Beginning capture of file /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7/encode.c ***
+[2020][      debug] Clang frontend action is translating and linting
+[2020][      debug] Loading the following linters files: /usr/local/infer-0.15.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[2020][      debug] Elapsed: 118ms.
+[2020][      debug] 
+[2020][environment] Infer log identifier is 
+
+[2032][environment] CWD = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[2032][environment] No .inferconfig file found
+[2032][environment] Project root = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[2032][environment] INFER_ARGS =   @/tmp/args.tmp.d1cd6e  ++Contents of '/tmp/args.tmp.d1cd6e':
+[2032][environment]                                         -Wall -Wextra -Werror -Wpedantic -c
+[2032][environment]                                         io.c
+[2032][environment]                                       
+[2032][environment] command line arguments:   clang -Wall -Wextra -Werror -Wpedantic -c io.cActive checkers: biabduction (C/C++/ObjC, Java), fragment retains view (Java), liveness (C/C++/ObjC), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[2032][      debug] 
+[2032][      debug] *** Beginning capture of file /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7/io.c ***
+[2032][      debug] Clang frontend action is translating and linting
+[2032][      debug] Loading the following linters files: /usr/local/infer-0.15.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[2032][      debug] Elapsed: 89.589ms.
+[2032][      debug] 
+[2032][environment] Infer log identifier is 
+
+[2052][environment] CWD = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[2052][environment] No .inferconfig file found
+[2052][environment] Project root = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[2052][environment] INFER_ARGS =   @/tmp/args.tmp.3875bb  ++Contents of '/tmp/args.tmp.3875bb':
+[2052][environment]                                         -Wall -Wextra -Werror -Wpedantic -c
+[2052][environment]                                         trie.c
+[2052][environment]                                       
+[2052][environment] command line arguments:   clang -Wall -Wextra -Werror -Wpedantic -c trie.cActive checkers: biabduction (C/C++/ObjC, Java), fragment retains view (Java), liveness (C/C++/ObjC), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[2052][      debug] 
+[2052][      debug] *** Beginning capture of file /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7/trie.c ***
+[2052][      debug] Clang frontend action is translating and linting
+[2052][      debug] Loading the following linters files: /usr/local/infer-0.15.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[2052][      debug] Elapsed: 69.727ms.
+[2052][      debug] 
+[2052][environment] Infer log identifier is 
+
+[2066][environment] CWD = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[2066][environment] No .inferconfig file found
+[2066][environment] Project root = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[2066][environment] INFER_ARGS =   @/tmp/args.tmp.fe9f5b  ++Contents of '/tmp/args.tmp.fe9f5b':
+[2066][environment]                                         -Wall -Wextra -Werror -Wpedantic -c
+[2066][environment]                                         word.c
+[2066][environment]                                       
+[2066][environment] command line arguments:   clang -Wall -Wextra -Werror -Wpedantic -c word.cActive checkers: biabduction (C/C++/ObjC, Java), fragment retains view (Java), liveness (C/C++/ObjC), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[2066][      debug] 
+[2066][      debug] *** Beginning capture of file /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7/word.c ***
+[2066][      debug] Clang frontend action is translating and linting
+[2066][      debug] Loading the following linters files: /usr/local/infer-0.15.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[2066][      debug] Elapsed: 122ms.
+[2066][      debug] 
+[2066][environment] Infer log identifier is 
+
+[2077][environment] CWD = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[2077][environment] No .inferconfig file found
+[2077][environment] Project root = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[2077][environment] INFER_ARGS =   @/tmp/args.tmp.5c754c  ++Contents of '/tmp/args.tmp.5c754c':
+[2077][environment]                                         -Wall -Wextra -Werror -Wpedantic -o
+[2077][environment]                                         encode encode.o io.o trie.o word.o
+[2077][environment]                                         -lm
+[2077][environment]                                       
+[2077][environment] command line arguments:   clang -Wall -Wextra -Werror -Wpedantic -o encode
+[2077][environment]                           encode.o io.o trie.o word.o -lmActive checkers: biabduction (C/C++/ObjC, Java), fragment retains view (Java), liveness (C/C++/ObjC), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[2077][environment] Infer log identifier is 
+
+[2084][environment] CWD = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[2084][environment] No .inferconfig file found
+[2084][environment] Project root = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[2084][environment] INFER_ARGS =   @/tmp/args.tmp.9eba2a  ++Contents of '/tmp/args.tmp.9eba2a':
+[2084][environment]                                         -Wall -Wextra -Werror -Wpedantic -c
+[2084][environment]                                         decode.c
+[2084][environment]                                       
+[2084][environment] command line arguments:   clang -Wall -Wextra -Werror -Wpedantic -c decode.cActive checkers: biabduction (C/C++/ObjC, Java), fragment retains view (Java), liveness (C/C++/ObjC), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[2084][      debug] 
+[2084][      debug] *** Beginning capture of file /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7/decode.c ***
+[2084][      debug] Clang frontend action is translating and linting
+[2084][      debug] Loading the following linters files: /usr/local/infer-0.15.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[2084][      debug] Elapsed: 209ms.
+[2084][      debug] 
+[2084][environment] Infer log identifier is 
+
+[2092][environment] CWD = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[2092][environment] No .inferconfig file found
+[2092][environment] Project root = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[2092][environment] INFER_ARGS =   @/tmp/args.tmp.60ac05  ++Contents of '/tmp/args.tmp.60ac05':
+[2092][environment]                                         -Wall -Wextra -Werror -Wpedantic -o
+[2092][environment]                                         decode decode.o io.o trie.o word.o
+[2092][environment]                                         -lm
+[2092][environment]                                       
+[2092][environment] command line arguments:   clang -Wall -Wextra -Werror -Wpedantic -o decode
+[2092][environment]                           decode.o io.o trie.o word.o -lmActive checkers: biabduction (C/C++/ObjC, Java), fragment retains view (Java), liveness (C/C++/ObjC), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[2092][environment] Infer log identifier is 
+
+[2106][      phase] ============================================================
+[2106][      phase] = New infer execution begins
+[2106][      phase] ============================================================
+[2106][environment] CWD = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[2106][environment] No .inferconfig file found
+[2106][environment] Project root = /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7
+[2106][environment] INFER_ARGS =   command line arguments:   infer-analyze -- makeActive checkers: biabduction (C/C++/ObjC, Java), fragment retains view (Java), liveness (C/C++/ObjC), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[2106][environment] Infer log identifier is 
+Infer version v0.16.0-1172e6d
+[2106][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[2106][environment] 
+[2106][   progress] Found 5 source files to analyze in /afs/cats.ucsc.edu/users/e/anageer/anageer/asgn7/infer-out
+[2106][environment] Parallel jobs: 2
+[2110][   progress] trie.c starting
+[2109][   progress] word.c starting
+[2110][   progress] trie.c DONE
+[2110][   progress] io.c starting
+[2109][   progress] word.c DONE
+[2109][   progress] encode.c starting
+[2110][   progress] io.c DONE
+[2110][   progress] decode.c starting
+[2109][   progress] encode.c DONE
+[2110][   progress] decode.c DONE

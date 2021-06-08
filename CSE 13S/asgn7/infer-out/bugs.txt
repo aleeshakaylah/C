@@ -1,0 +1,79 @@
+Found 9 issues
+
+trie.c:13: error: NULL_DEREFERENCE
+  pointer `n` last assigned on line 12 could be null and is dereferenced at line 13, column 2.
+  11.   TrieNode *trie_node_create(uint16_t index){
+  12.   	TrieNode *n = (TrieNode *)calloc(1, sizeof(TrieNode));
+  13. > 	n->code = index;
+  14.   
+  15.   	return n;
+
+word.c:23: error: NULL_DEREFERENCE
+  pointer `w->syms` last assigned on line 16 could be null and is dereferenced at line 23, column 3.
+  21.   	// fill syms
+  22.   	for (uint32_t i = 0; i <= len; i++) {
+  23. > 		w->syms[i] = syms[i];
+  24.   	}
+  25.   
+
+word.c:16: error: NULL_DEREFERENCE
+  pointer `w` last assigned on line 13 could be null and is dereferenced at line 16, column 2.
+  14.   
+  15.   	// allocate enough memory for word->syms length * something 
+  16. > 	w->syms = calloc(1, sizeof(uint8_t *) * len);
+  17.   
+  18.   	// initialize length
+
+encode.c:36: error: RESOURCE_LEAK
+  resource acquired by call to `open()` at line 36, column 14 is not released after line 36, column 19.
+  34.   				break;
+  35.   			case 'i':
+  36. > 				infile = open(optarg, O_RDONLY);
+  37.   				if (infile < 0){
+  38.        					printf("File input error.\n");
+
+encode.c:43: error: RESOURCE_LEAK
+  resource acquired by call to `open()` at line 43, column 15 is not released after line 43, column 20.
+  41.   				break;
+  42.   			case 'o':
+  43. > 				outfile = open(optarg, O_WRONLY | O_CREAT | O_TRUNC, 0644);
+  44.   				if (outfile < 0){
+  45.        					printf("File output error.\n");
+
+word.c:51: error: NULL_DEREFERENCE
+  pointer `nw->syms` last assigned on line 47 could be null and is dereferenced at line 51, column 4.
+  49.   		// add symbols to new word
+  50.   		for (uint32_t i = 0; i <= w->len; i++) {
+  51. > 			nw->syms[i] = w->syms[i];
+  52.   		}
+  53.   		
+
+word.c:47: error: NULL_DEREFERENCE
+  pointer `nw` last assigned on line 44 could be null and is dereferenced at line 47, column 3.
+  45.   
+  46.   		// allocate memory for new word->syms 
+  47. > 		nw->syms = calloc(1, w->len + 1);
+  48.   
+  49.   		// add symbols to new word
+
+word.c:88: error: NULL_DEREFERENCE
+  pointer `wt` last assigned on line 87 could be null and is dereferenced at line 88, column 2.
+  86.   WordTable *wt_create(void){
+  87.   	WordTable *wt = calloc(MAX_CODE, sizeof(WordTable));
+  88. > 	wt[EMPTY_CODE] = (Word *) calloc(1, sizeof(Word));
+  89.   	
+  90.   	return wt;
+
+io.c:300: error: DEAD_STORE
+  The value written to &total_bits (type int) is never used.
+  298.   		}
+  299.   	}
+  300. > 	total_bits += 8 * w->len;
+  301.   }
+  302.   
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 6
+     RESOURCE_LEAK: 2
+        DEAD_STORE: 1
